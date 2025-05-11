@@ -10,6 +10,10 @@ This repository contains the Power BI project files and documentation for a comp
 This dashboard provides a multi-faceted view of Bitcoin's price action, including:
 
 * **Key Performance Indicators (KPIs):**
+    * Highest Price
+    * Lowest Price
+    * Average Price
+    * Average Volume
     * Overall Return on Investment (ROI) for the entire period.
     * Annualized Return.
     * Maximum Drawdown (peak-to-trough decline).
@@ -23,12 +27,12 @@ The target audience for this analysis is individuals interested in understanding
 
 ## Dashboard Screenshots
 
-**Dashboard 1: Key Metrics & Performance**
+**Dashboard Home: Key Metrics & Performance**
 
 ![Dashboard 1 Screenshot](path/to/your/dashboard1_screenshot.png)
 *(Replace `path/to/your/dashboard1_screenshot.png` with the actual path to your screenshot)*
 
-**Dashboard 2: Historical Trends**
+**Dashboard Insights: Historical Trends**
 
 ![Dashboard 2 Screenshot](path/to/your/dashboard2_screenshot.png)
 *(Replace `path/to/your/dashboard2_screenshot.png` with the actual path to your screenshot)*
@@ -42,7 +46,7 @@ The target audience for this analysis is individuals interested in understanding
 
 ## Data Source
 
-The analysis is based on a dataset of Bitcoin vs. USD price data, collected from [Specify your data source here, e.g., a specific API, CSV file, etc.]. The dataset includes daily open, high, low, close, adjusted close prices, and trading volume.
+The analysis is based on a dataset of Bitcoin vs. USD price data from Kaggle The dataset includes daily open, high, low, close, adjusted close prices, and trading volume.
 
 ## Technologies Used
 
@@ -71,12 +75,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 ## Contributions
 
 Contributions to this project are welcome! If you have ideas for improvements, new visualizations, or bug fixes, please feel free to open an issue or submit a pull request.
-
-## Contact
-
-[Your Name/GitHub Profile Link]
-[Your Email Address (Optional)]
-
----
 
 **Note:** Remember to replace the placeholder paths for the screenshots (`path/to/your/...`) with the actual paths to your image files within the repository. Also, specify your data source accurately. You might also want to include a `LICENSE` file in your repository.
