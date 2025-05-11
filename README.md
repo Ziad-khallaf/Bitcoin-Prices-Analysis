@@ -1,4 +1,4 @@
-# Bitcoin Pulse: Price Analysis Dashboard (Sep 2015 - Sep 2021)
+# Bitcoin racker: Price Analysis Dashboard (Sep 2015 - Sep 2021)
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Power BI](https://img.shields.io/badge/Power_BI-Report-orange.svg)](https://powerbi.microsoft.com/)
