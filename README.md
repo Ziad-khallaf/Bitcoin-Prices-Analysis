@@ -1,72 +1,89 @@
-# Bitcoin racker: Price Analysis Dashboard (Sep 2015 - Sep 2021)
+# Bitcoin Pulse: Price & Performance Analysis (Sep 2015 - Sep 2021)
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Power BI](https://img.shields.io/badge/Power_BI-Report-orange.svg)](https://powerbi.microsoft.com/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue.svg)](https://jupyter.org/)
 
-This repository contains the Power BI project files and documentation for a comprehensive dashboard analyzing the historical price movements of Bitcoin against the US Dollar (USD) from September 2015 to September 2021. The dashboard is designed to provide key performance indicators (KPIs) and insightful visualizations for understanding Bitcoin's performance, risk, and market trends during this significant period.
+This repository contains a comprehensive analysis of Bitcoin (BTC) price movements against the US Dollar (USD) from September 2015 to September 2021. The project combines interactive Power BI dashboards with a detailed Python-based analysis in a Jupyter Notebook to provide insights into Bitcoin's historical performance, risk, and market trends.
 
 ## Overview
 
-This dashboard provides a multi-faceted view of Bitcoin's price action, including:
+This project aims to provide a multi-faceted understanding of Bitcoin's price dynamics, catering to a range of audiences from investors and analysts to executives seeking a high-level overview.  It includes:
 
-* **Key Performance Indicators (KPIs):**
-    * Highest Price
-    * Lowest Price
-    * Average Price
-    * Average Volume
-    * Overall Return on Investment (ROI) for the entire period.
-    * Annualized Return.
-    * Maximum Drawdown (peak-to-trough decline).
-    * Annualized Volatility.
-* **Price Trends:** Historical price charts to visualize the overall price trajectory.
-* **Volatility Analysis:** Examination of Bitcoin's volatility over different years.
-* **Return Distribution:** Understanding the frequency of different daily price changes.
-* **Monthly Performance Breakdown:** A detailed view of monthly returns within each year.
+* **Interactive Power BI Dashboards:** Visualizations of key performance indicators (KPIs) and historical price trends.
+* **Detailed Jupyter Notebook Analysis:** A step-by-step walkthrough of the data analysis process using Python, including data handling, feature engineering, and exploratory data analysis (EDA).
 
-The target audience for this analysis is individuals interested in understanding Bitcoin's historical performance, including investors, analysts, and executives seeking a high-level overview.
+## Project Components
+
+* **Power BI Dashboards:**
+    * **Dashboard 1: Key Metrics & Performance ("Home")**
+        * Provides a high-level overview of Bitcoin's performance with key KPIs:
+            * Highest Price
+            * Lowest Price
+            * Average Price
+            * Average Volume
+            * Return on Investment (ROI)
+            * Annualized ROI
+            * Annualized Volatility
+            * Maximum Drawdown
+        * Visualizations of volatility by year and distribution of daily returns.
+    * **Dashboard 2: Historical Trends ("Insights")**
+        * Presents a broader historical perspective:
+            * Bitcoin prices over time.
+            * Average price trends.
+            * Highest and lowest historical prices.
+            * Average trading volume.
+    * **Jupyter Notebook (`Bitcoin_Prices`):** Contains the Python code and analysis used to:
+        * Load and clean the Bitcoin price data.
+        * Calculate relevant features (e.g., daily returns, volatility).
+        * Perform exploratory data analysis (EDA).
+        * Calculate DAX measures for use in Power BI.
+        * Develop a Bitcoin investment calculator.
 
 ## Dashboard Screenshots
 
-**Dashboard Home: Key Metrics & Performance**
+**Dashboard 1: Key Metrics & Performance ("Home")**
+![Dashboard 1 Screenshot](![Home.jpg](https://github.com/user-attachments/assets/7ac689ca-c329-478a-9ad4-93916617b14a)
 
-![Dashboard 1 Screenshot](path/to/your/dashboard1_screenshot.png)
-*(Replace `path/to/your/dashboard1_screenshot.png` with the actual path to your screenshot)*
+**Dashboard 2: Historical Trends ("Insights")**
+![Dashboard 2 Screenshot](C:\Users\dell\Desktop\powerbi projects\projects\Bitcoin\)
 
-**Dashboard Insights: Historical Trends**
+## Jupyter Notebook Analysis
 
-![Dashboard 2 Screenshot](path/to/your/dashboard2_screenshot.png)
-*(Replace `path/to/your/dashboard2_screenshot.png` with the actual path to your screenshot)*
+The Jupyter Notebook (`Bitcoin_Prices.pdf`) provides a detailed, code-driven analysis of the Bitcoin price data. It covers the following:
 
-## Key Features
+* **Data Loading and Cleaning:** Loading the data from a CSV file and handling any missing values or data inconsistencies.
+* **Feature Engineering:** Creating new features, such as daily returns and volatility, from the raw price data.
+* **Exploratory Data Analysis (EDA):** Visualizing and analyzing the data to understand its key characteristics, including price trends, distributions, and relationships between variables.
+* **DAX Measure Calculations:** Python code used to calculate metrics that are then implemented as DAX measures in the Power BI dashboards.
+* **Bitcoin Investment Calculator:** A Python-based tool to calculate investment performance metrics (ROI, Annualized ROI) based on user-specified purchase and sell dates.
 
-* **Interactive Visualizations:** Explore price trends, volatility, and returns through dynamic charts.
-* **At-a-Glance KPIs:** Quickly understand key performance and risk metrics via prominent card visuals.
-* **Historical Context:** Analyze Bitcoin's performance over a significant six-year period.
-* **Insights into Market Behavior:** Gain understanding of daily return distributions and monthly performance patterns.
+You can view the notebook in the `Bitcoin_Prices.pdf` file.
 
 ## Data Source
 
-The analysis is based on a dataset of Bitcoin vs. USD price data from Kaggle The dataset includes daily open, high, low, close, adjusted close prices, and trading volume.
+The analysis is based on Bitcoin vs. USD price data sourced from [Specify your data source here, e.g., a specific API, CSV file, etc.]. The dataset includes daily open, high, low, close, adjusted close prices, and trading volume.
 
 ## Technologies Used
 
-* **Power BI:** The primary tool used for data modeling, calculations (DAX), and dashboard visualization.
+* **Power BI:** Used for interactive dashboard creation and visualization.
+* **Python:** Used for data analysis, manipulation, and feature engineering.
+    * Libraries: NumPy, Pandas, Matplotlib, Seaborn, SciPy, datetime, dateutil.relativedelta
 
 ## Setup and Usage
 
 1.  **Download the Repository:** Clone or download the ZIP file of this repository to your local machine.
-2.  **Open the Power BI Project:** Open the `.pbix` file located in the repository using Microsoft Power BI Desktop.
-3.  **Review Data Source Connection:** Ensure the data source connection is correctly configured. You may need to update the path or connection details if you used a local file.
-4.  **Explore the Dashboard:** Navigate through the different pages of the dashboard to explore the visualizations and KPIs.
-5.  **(Optional) Customize and Extend:** Feel free to modify the dashboard, add new visualizations, or incorporate additional data sources for further analysis.
+2.  **Explore the Data and Analysis:**
+    * Review the `Bitcoin_Prices.pdf` file to understand the Python-based data analysis.
+    * Open the Power BI project file (if applicable) in Microsoft Power BI Desktop to interact with the dashboards.  (Note:  The .pbix file may not be directly included in this text-based representation, but would be present in the actual repository)
+3.  **(Optional) Run the Jupyter Notebook:**
+    * The core analysis is within the PDF.
 
 ## Potential Enhancements
 
-* **Comparison with Other Assets:** Include price performance comparisons with other cryptocurrencies or traditional assets.
-* **Technical Indicators:** Integrate common technical analysis indicators (e.g., Moving Averages, RSI).
-* **Event Annotations:** Add annotations to price charts highlighting significant market events or news.
-* **Forecasting (Advanced):** Implement basic forecasting models to project potential future price movements.
 * **Real-time Data Integration:** Explore options for integrating real-time or more frequently updated data.
+* **Advanced Modeling:** Implement predictive modeling techniques to forecast future Bitcoin prices.
+* **Expand Asset Comparison:** Include comparisons with other cryptocurrencies and traditional financial assets.
 
 ## License
 
@@ -74,6 +91,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contributions
 
-Contributions to this project are welcome! If you have ideas for improvements, new visualizations, or bug fixes, please feel free to open an issue or submit a pull request.
-
-**Note:** Remember to replace the placeholder paths for the screenshots (`path/to/your/...`) with the actual paths to your image files within the repository. Also, specify your data source accurately. You might also want to include a `LICENSE` file in your repository.
+Contributions to this project are welcome! If you have ideas for improvements, new visualizations, or find any issues, please feel free to open an issue or submit a pull request.
