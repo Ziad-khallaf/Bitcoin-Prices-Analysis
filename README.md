@@ -43,10 +43,10 @@ This project aims to provide a multi-faceted understanding of Bitcoin's price dy
 ## Dashboard Screenshots
 
 **Dashboard 1: Key Metrics & Performance ("Home")**
-![Dashboard 1 Screenshot](![Home.jpg](https://github.com/user-attachments/assets/7ac689ca-c329-478a-9ad4-93916617b14a)
+![Dashboard 1](https://github.com/user-attachments/assets/7ac689ca-c329-478a-9ad4-93916617b14a)
 
 **Dashboard 2: Historical Trends ("Insights")**
-![Dashboard 2 Screenshot](C:\Users\dell\Desktop\powerbi projects\projects\Bitcoin\)
+![Dashboard 2](![Insights](https://github.com/user-attachments/assets/3da3a4c5-d802-48a5-a7a9-d3cede9c31ec))
 
 ## Jupyter Notebook Analysis
 
