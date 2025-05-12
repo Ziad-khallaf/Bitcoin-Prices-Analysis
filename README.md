@@ -1,4 +1,4 @@
-# Bitcoin Pulse: Price & Performance Analysis (Sep 2015 - Sep 2021)
+# Bitcoin Price & Performance Analysis (Sep 2015 - Sep 2021)
 
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
