@@ -106,11 +106,3 @@ The analysis is based on Bitcoin vs. USD price data sourced from [Specify your d
 * **Real-time Data Integration:** Explore options for integrating real-time or more frequently updated data.
 * **Advanced Modeling:** Implement predictive modeling techniques to forecast future Bitcoin prices.
 * **Expand Asset Comparison:** Include comparisons with other cryptocurrencies and traditional financial assets.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more details.
-
-## Contributions
-
-Contributions to this project are welcome! If you have ideas for improvements, new visualizations, or find any issues, please feel free to open an issue or submit a pull request.
