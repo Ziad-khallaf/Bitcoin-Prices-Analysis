@@ -1,10 +1,22 @@
 # Bitcoin Pulse: Price & Performance Analysis (Sep 2015 - Sep 2021)
 
+
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 [![Power BI](https://img.shields.io/badge/Power_BI-Report-orange.svg)](https://powerbi.microsoft.com/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-blue.svg)](https://jupyter.org/)
+![Tool](https://img.shields.io/badge/PowerBI-Visualization-green.svg)
 
 This repository contains a comprehensive analysis of Bitcoin (BTC) price movements against the US Dollar (USD) from September 2015 to September 2021. The project combines interactive Power BI dashboards with a detailed Python-based analysis in a Jupyter Notebook to provide insights into Bitcoin's historical performance, risk, and market trends.
+
+This project presents a complete analysis of Bitcoin price behavior over a six-year period. The objective is to:
+- Clean and explore a large financial dataset.
+- Engineer new financial features like **daily return** and **volatility**.
+- Identify trends, patterns, and outliers.
+- Evaluate investment potential and simulate ROI.
+
+The insights are supported by rich **visualizations** in both Python and **interactive dashboards in Power BI**.
+
 
 ## Overview
 
@@ -37,6 +49,7 @@ This project aims to provide a multi-faceted understanding of Bitcoin's price dy
         * Load and clean the Bitcoin price data.
         * Calculate relevant features (e.g., daily returns, volatility).
         * Perform exploratory data analysis (EDA).
+        * Make ROI Calculator (ROI Simulation).
         * Calculate DAX measures for use in Power BI.
         * Develop a Bitcoin investment calculator.
 
@@ -60,15 +73,24 @@ The Jupyter Notebook (`Bitcoin_Prices.pdf`) provides a detailed, code-driven ana
 
 You can view the notebook in the `Bitcoin_Prices.pdf` file.
 
+## 📈 Key Findings
+
+- 📈 **Bitcoin grew from $230 to over $44,000** between 2015 and 2021
+- 🔁 **Daily return** varied significantly across the time period
+- 💸 $1,000 invested in 2015 could become **$194,000+** by 2021  
+- 📆 The most volatile trading day was **May 19, 2021**, with a price swing over **$12,800**
+
 ## Data Source
 
 The analysis is based on Bitcoin vs. USD price data sourced from [Specify your data source here, e.g., a specific API, CSV file, etc.]. The dataset includes daily open, high, low, close, adjusted close prices, and trading volume.
 
-## Technologies Used
+* ## 🛠 Tools Used
 
-* **Power BI:** Used for interactive dashboard creation and visualization.
-* **Python:** Used for data analysis, manipulation, and feature engineering.
-    * Libraries: NumPy, Pandas, Matplotlib, Seaborn, SciPy, datetime, dateutil.relativedelta
+- 🐍 **Python** — Programming Language  
+- 🧮 **Pandas, NumPy** — Data Wrangling & Computation  
+- 📊 **Matplotlib, Seaborn** — Visual Exploration  
+- 📓 **Jupyter Notebook** — Interactive Analysis  
+- 📈 **Power BI** — Dashboard Reporting  
 
 ## Setup and Usage
 
