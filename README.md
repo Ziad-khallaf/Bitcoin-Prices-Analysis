@@ -38,7 +38,7 @@ This project aims to provide a multi-faceted understanding of Bitcoin's price dy
             * Annualized ROI
             * Annualized Volatility
             * Maximum Drawdown
-        * Visualizations of volatility by year and distribution of daily returns.
+            * Visualizations of volatility by year and distribution of daily returns.
     * **Dashboard 2: Historical Trends ("Insights")**
         * Presents a broader historical perspective:
             * Bitcoin prices over time.
