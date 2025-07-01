@@ -106,3 +106,4 @@ The analysis is based on Bitcoin vs. USD price data sourced from [Specify your d
 * **Real-time Data Integration:** Explore options for integrating real-time or more frequently updated data.
 * **Advanced Modeling:** Implement predictive modeling techniques to forecast future Bitcoin prices.
 * **Expand Asset Comparison:** Include comparisons with other cryptocurrencies and traditional financial assets.
+📄 [View the full report (PDF)](./Bitcoin_Prices.pdf)
